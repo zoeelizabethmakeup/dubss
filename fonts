@@ -1,0 +1,226 @@
+<div class="sgcode">General Styles Block</div>
+
+<style>
+/**
+ * 
+ *  - Theme:      Neue
+ *  - Block:         General Styles
+ *  - Version:      1.7
+ *  - Author:       www.zoeelizabethmakeup.com
+ * 
+**/
+@font-face {
+font-family: "Hauora-Light";
+src: url("https://static.showit.co/file/znNkRzU6S9qDwyUk6r1M4w/115296/hauora-light.woff") format("woff");
+}
+@font-face {
+font-family: "Hauora-SemiBold";
+src: url("https://static.showit.co/file/bSqdXDyyQoyeHLit_CFI8Q/115296/hauora-semibold.woff") format("woff");
+}
+@font-face {
+font-family: "Vera-Regular";
+src: url("https://static.showit.co/file/Q9EhPGbfT0-HbXWQM7Okww/115296/vera_regular.woff") format("woff");
+}
+html, body {
+    overflow-x: hidden !important;
+    scroll-behavior: smooth !important;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body, * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+html,body,.jb-form.container{
+    background-color: #f5f1ed !important;
+}
+.spacer-1x {
+    height: 50px;
+}
+.spacer-2x {
+    height: 75px;
+}
+.spacer-3x {
+    height: 100px;
+}
+@media only screen and (max-width: 551px) { 
+    .spacer {
+        height: 25px;
+    }
+    .spacer-2x {
+        height: 50px;
+    }
+    .spacer-3x {
+        height: 75px;
+    }
+}
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.full-width {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw !important;
+    margin: 0rem -50vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+}
+#main-wrapper .full-width {
+    width: 100% !important;
+    margin: unset;
+    left: 0px;
+    right: 0px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+:root {
+    --h1: Vera-Regular;
+    --h2: vera-regular;
+    --h3: hauora-semibold;
+    --h4: hauora-semibold;
+    --p: hauora-light;
+}
+h1, .h1, .jb-form label.h1 {
+    font-family: var(--h1);
+    font-size: 47px;
+    font-weight: 400 !important;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-style: normal;
+    text-transform: uppercase;
+    color: ;
+}
+h2, .h2, .jb-form label.h2 { 
+    font-family: var(--h2);
+    font-size: 30px;
+    font-weight: 300 !important;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-style: normal;
+    text-transform: none;
+    color: ;
+}
+h3, .h3, .jb-form label.h3 {
+    font-family: var(--h3);
+    font-size: 11px;
+    font-weight: 300 !important;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    font-style: normal;
+    text-transform: uppercase;
+    color: ;
+}
+h4, .h4, .jb-form label.h4 { 
+    font-family: var(--h4);
+    font-size: 18px;
+    font-weight: 400 !important;
+    letter-spacing: 0.2px;
+    line-height: 1.6;
+    font-style: normal;
+    text-transform: uppercase;
+    color: ;
+}
+.jb-form, p, .p, .jb-form label.p, .fr-element.fr-view {
+    font-family: var(--p);
+    font-size: 15px;
+    font-weight: 200 !important;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    font-style: normal;
+    text-transform: none;
+    color: ;
+}
+.card__body.ng-scope .form-settings h1, .card__body.ng-scope .form-settings h2, .card__body.ng-scope .form-settings h3, .card__body.ng-scope .form-settings h4, .card__body.ng-scope .form-settings p {
+    font-family: unset;
+    font-size: unset;
+    font-style: unset;
+    text-transform: unset;
+    color: unset;
+    font-weight: unset;
+    letter-spacing: unset;
+    font-style: unset;
+}
+b, strong {
+    font-weight: 700;
+}
+.jb-form .form-text a:not(.mcnButton) {
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    color:  !important;
+    text-decoration: none !important;
+}
+.jb-form .form-text a:not(.mcnButton):hover {
+    color: ;
+    text-decoration: none !important;
+}
+img {
+    -o-object-fit: cover; 
+    object-fit: cover;
+}
+a.dubsButton, a.mcnButton.dubsButton.linkButton {
+    background-color:  !important;
+    font-family: hauora-semibold;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1;
+    font-style: normal;
+    letter-spacing: 0.9px;
+    padding: 14px 22px;
+    border: 1px solid !important;
+    border-color:  !important;
+    border-radius: 0px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    color:  !important;
+    margin: 0px;
+}
+a.dubsButton:hover, a.mcnButton.dubsButton.linkButton:hover {
+    text-decoration: none;
+    color:  !important;
+    background-color:  !important;
+    border-color:  !important;
+}
+.toast-warning {
+    background-color:  !important;
+}
+#loading-bar .bar {
+ background:  !important; 
+}
+#loading-bar .peg {
+ -webkit-box-shadow: none !important;
+ -moz-box-shadow: none !important;
+ box-shadow: none !important;
+}
+.col-sm-12.hidden-print.padding-top-20 {
+    display: none;
+}
+.col-sm-12.margin-top-20.hidden-print {
+    min-height: 0px;
+}
+.col-sm-12.hidden-print.padding-top-20 > div {
+    min-height: 0px !important;
+}
+view-form-public-component.ng-scope.ng-isolate-scope > .container {
+    margin-top: -2px;
+}
+.checkbox.clip-check.check-info.check-brand-color {
+    display: flex;
+    align-items: center !Important;
+}
+</style>
